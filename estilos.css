@@ -2,6 +2,12 @@
     text-align: justify;
 }
 
+.informationform{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .slime{
     width: 100%;
     height: 300px;
@@ -17,6 +23,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.concert{
+    width: 100%;
 }
 
 a.intermedia{
@@ -89,6 +99,7 @@ p{
     width: 350px;
     max-width: 100%;
     font-size: 18px;
+    padding-right: 10px;
 }
 
 .musicli{
@@ -97,6 +108,14 @@ p{
     background-color: rgba(116, 116, 116, 0.205);
     width: 100%;
     font-size: 18px;
+}
+
+.declaracion{
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    padding-top: 10px;
 }
 
 .videointro video{
@@ -120,6 +139,13 @@ audio{
     width: 100%;
 }
 
+.main-form{
+    background-image: url(img/chrisbwallpaper3.jpg);
+    background-attachment: fixed;
+    background-position: 600px 0px;
+    background-repeat: no-repeat;
+}
+
 .footer p{
     font-size: 16px;
 }
@@ -127,3 +153,33 @@ audio{
 .footer h3{
     font-size: 18px;
 }
+
+.icon{
+    color: white;
+    text-decoration: none;
+}
+
+.iconinfo{
+    color: white;
+    text-decoration: none;
+}
+
+.icon:hover{
+    color: rgb(123, 195, 228);
+    zoom: 110%;
+}
+
+.iconinfo:hover{
+    color: rgb(123, 195, 228);
+}
+
+.iconfit{
+    height: 30px;
+}
+
+.boton_up{
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 70px;
+  }
