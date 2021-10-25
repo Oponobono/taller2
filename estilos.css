@@ -39,8 +39,12 @@ a.intermedia{
 a.discos{
     color: rgb(255, 255, 255);
     font-weight: bold;
+    text-decoration: none;
 }
 
+.discos:hover{
+    color: #c0b06b;
+}
 p{
     font-size: 18px;
 }
@@ -48,6 +52,7 @@ p{
 .lista{
     font-size: 18px;
 }
+
 .font{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
@@ -100,6 +105,8 @@ p{
     max-width: 100%;
     font-size: 18px;
     padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .musicli{
@@ -183,3 +190,4 @@ audio{
     bottom: 70px;
     right: 70px;
   }
+
