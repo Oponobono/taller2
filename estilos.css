@@ -36,6 +36,10 @@ a.intermedia{
     text-decoration: none;
     font-size: 18px;
 }
+
+a.intermedia:hover{
+    color: rgb(123, 195, 228);
+}
 a.discos{
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -179,6 +183,7 @@ audio{
 .iconinfo:hover{
     color: rgb(123, 195, 228);
 }
+
 
 .iconfit{
     height: 30px;
